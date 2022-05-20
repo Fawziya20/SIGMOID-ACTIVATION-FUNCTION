@@ -11,7 +11,7 @@
 ## Related Theoritical Concept:
 Sigmoid Activation Function is commonly used for models where we have to predict the probability as an output. Since probability of anything exists only between the range of 0 and 1, sigmoid is the right choice because of its range.
 The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function.<br>
-The limitations of sigmoid function are :
+The limitations of sigmoid function are :<br>
 The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
 
 The output of the logistic function is not symmetric around zero. So the output of all the neurons will be of the same sign. This makes the training of the neural network more difficult and unstable.
@@ -30,12 +30,10 @@ The output of the logistic function is not symmetric around zero. So the output 
 
 
 ## Program:
+Program to implement the sigmoid activation function in a feed forward ANN.<br>
+Developed by:A.FAWZIYA<br>
+RegisterNumber:212220230017<br>
 
-/*
-Program to implement the sigmoid activation function in a feed forward ANN.
-Developed by:A.FAWZIYA
-RegisterNumber:212220230017
-*/
 ```python
 import numpy as np
 class NeuralNetwork():
