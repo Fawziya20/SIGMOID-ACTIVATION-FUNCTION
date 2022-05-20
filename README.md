@@ -10,27 +10,27 @@
 
 ## Related Theoritical Concept:
 Sigmoid Activation Function is commonly used for models where we have to predict the probability as an output. Since probability of anything exists only between the range of 0 and 1, sigmoid is the right choice because of its range.
-The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function.
+The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function.<br>
 The limitations of sigmoid function are :
 The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
 
 The output of the logistic function is not symmetric around zero. So the output of all the neurons will be of the same sign. This makes the training of the neural network more difficult and unstable.
 
 ## Algorithm
-1.Import packages
-2.Define neural network class
-3.Model single neuron with 3 inputs and 1 output and assign random weights to a 3 x 1 matrix with values between -1 and 1
-4.Define sigmoid function and calculate the error
-5.Multiply the error by the input and again by the gradient of the sigmoid curve
-6.Initialize a single neuron neural network
-7.Train neural network using training data
-8.Test neural network with new data
+1.Import packages<br>
+2.Define neural network class<br>
+3.Model single neuron with 3 inputs and 1 output and assign random weights to a 3 x 1 matrix with values between -1 and 1<br>
+4.Define sigmoid function and calculate the error<br>
+5.Multiply the error by the input and again by the gradient of the sigmoid curve<br>
+6.Initialize a single neuron neural network<br>
+7.Train neural network using training data<br>
+8.Test neural network with new data<br>
 
 
 
 
 ## Program:
-```
+
 /*
 Program to implement the sigmoid activation function in a feed forward ANN.
 Developed by:A.FAWZIYA
@@ -87,7 +87,7 @@ if __name__=="__main__":
   ```
 
 ## Output:
-![ouput screenshot](XXX.png)
+
 
 ![168613096-c802bca1-1f74-43be-82db-0ccc055239b0](https://user-images.githubusercontent.com/75235022/169443908-051592f0-983e-4791-a2f7-c3d6eab5c3ab.png)
 
